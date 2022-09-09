@@ -2,7 +2,6 @@
 
 import java.util.Scanner;
  class cellPhone
- 
 {
     
     public void ring()
@@ -20,17 +19,14 @@ import java.util.Scanner;
         System.out.println("calling to dolly .....");
         
     }
-    
 }
-     class Main
+class Main
  {
-     public static void main(String[] args){
-        
-    cellPhone samsung=new cellPhone();
-    samsung.callFriend();
-    samsung.vibrate();
-    samsung.ring();
-    
-    
-     }
+    public static void main(String[] args)
+    {
+        cellPhone samsung=new cellPhone();
+        samsung.callFriend();
+        samsung.vibrate();
+        samsung.ring();
+    }
 }
