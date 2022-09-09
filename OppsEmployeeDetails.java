@@ -3,13 +3,13 @@ import java.util.Scanner;
 class employee
 {
     int id;
-    string name;
+    String name;
     float salary;
     
     void inputData()
     {
         System.out.println("enter the details");
-        Scanner.sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.print("enter the id of employee");
         id=sc.nextInt();
         System.out.print("enter the name of employee");
@@ -26,7 +26,7 @@ class employee
         
     }
 }
-public class Main.java
+public class Main
 {
     public static void main(String[] args)
     {
