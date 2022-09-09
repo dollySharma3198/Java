@@ -1,4 +1,5 @@
-// OOPS METHOD
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
 class Animal
 {
@@ -16,20 +17,20 @@ void showAnimaldetails()
     System.out.println("name of animal"+name);
 }
 }
-public class ClassAndObject{
+public class Oops_method{
     public static void main(String[] args) {
-        Animal
-       Animal=new Animal();
-        Animal.name="lion";
+     
+       Animal ani=new Animal();
+        ani.name="lion";
         
-        Animal=new Animal();
-        Animal.name="tiger";
+        Animal ani2=new Animal();
+        ani2.name="tiger";
         
         
-       Animal.showAnimalDetails();
-       Animal.showAnimalDetails();
+       ani.showAnimaldetails();
+       ani2.showAnimaldetails();
         
-        System.out.println("Animal name"+Animal.name);
-         System.out.println("Animal name"+Animal.name);
+        System.out.println("Animal name"+ani.name);
+         System.out.println("Animal name"+ani2.name);
     }
 }
