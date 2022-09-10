@@ -28,8 +28,18 @@ public class Main
          
        s2.name= "vijay";
         s2.age  = 26;
-        s2.height=6;
+        s2.height=6.2f;
          s2.color="black";
         s2.printinfo();
+
+
+        // Student s[]=new Student[10];
+        
+        // for(int i=0;i<10;i++)
+        // {
+        //     s[i]=new Student();
+        //     System.out.println("age "+s[i].age);
+        // }
+
     }
 }
