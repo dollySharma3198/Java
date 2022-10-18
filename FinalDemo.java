@@ -14,5 +14,7 @@ class Main //FinalDemo
     {
         final float PI=3.14f;
         // PI=56.8f;
+       System.out.println("the value of PI "+ PI);
+
     }
 }
