@@ -40,5 +40,11 @@ public class Main  //POJO-plain old Java object
 		//e.id=101;
 		e.setId(101);
 		System.out.println(e.getId());
+		System.out.println(e.getId());
+		e.setName(dolly);
+		System.out.println(e.getName());
+		e.setSalary(1452.12);
+		System.out.println(e.getSalary());
+	}
 	}
 }
