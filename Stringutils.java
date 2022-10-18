@@ -7,9 +7,10 @@ public class Main  //Stringutils
 	StringBuilder sb=new StringBuilder("dolly"); //bcoz string object is immutable
 	StringBuffer sbuff=new StringBuffer("hello ");
 	
-	//System.out.println(sb);
+	
 	sb.append("sharma");
 	sbuff.append("everyone");
+	System.out.println(sb);
 	System.out.println(sbuff);
 	}
 }
