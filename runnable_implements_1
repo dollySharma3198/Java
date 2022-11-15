@@ -1,0 +1,26 @@
+//runnable interface 
+class MyThreadRunnable implements Runnable{
+    public void run(){
+        System.out.println("i m a thread ");
+    }
+}
+
+class MyThreadRunnable2 implements Runnable{
+    public void run(){
+        System.out.println("i m a thread 2 ");
+    }
+}
+public class Main  //Runnable interface
+{
+	public static void main(String[] args) {
+	    
+	MyThreadRunnable let1=new MyThreadRunnable();
+	Thread t1=new Thread(let1);
+	
+	MyThreadRunnable2 let2=new MyThreadRunnable2();
+	Thread t2= new Thread(let2);
+	
+	t1.start();
+	t2.start();
+	}
+}
